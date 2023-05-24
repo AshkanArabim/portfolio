@@ -1,0 +1,6 @@
+.project{
+  text-align: left;
+  margin: 20px auto;
+  width: max(50vw, 500px);
+  border: 3px solid black;
+}
