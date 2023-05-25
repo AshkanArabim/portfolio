@@ -3,7 +3,7 @@ import "./Project.css";
 export default function Project(props) {
 	function linkProject() {
 		// redirects to project page
-		window.location.pathname = "./" + props.title;
+		window.location.href = props.link;
 	}
 
 	return (
