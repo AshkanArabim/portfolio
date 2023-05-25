@@ -1,0 +1,45 @@
+.project {
+  position: relative;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid black;
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+	overflow: clip;
+}
+
+.project * {
+	transition: 0.2s;
+}
+
+.project > h3 {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 0.5em;
+}
+
+.project:hover > h3 {
+	display: none;
+}
+
+.project > img {
+	width: inherit;
+	z-index: -1;
+	position: absolute;
+}
+
+.project > p {
+	display: none;
+	color: white;
+}
+
+.project:hover > p {
+	display: block;
+}
+
+.project:hover > img {
+	filter: brightness(20%);
+}

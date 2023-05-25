@@ -1,0 +1,14 @@
+header {
+	height: 60px;
+	padding: 0 30px;
+	gap: 30px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	color: white;
+	background: black;
+}
+
+button {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
