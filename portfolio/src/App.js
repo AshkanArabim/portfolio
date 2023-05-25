@@ -1,13 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./components/Nav/Nav.jsx";
-import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
 function App() {
 	return (
 		<div className="App">
-			<Nav></Nav>
-			<Home></Home>
+			<Nav />
+			<Outlet />
+			<Footer />
 		</div>
 	);
 }
