@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
+import { RouterProvider, Navigate, createHashRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import RouterError from "./components/RouterError/RouterError";
@@ -8,13 +8,13 @@ import reportWebVitals from "./reportWebVitals";
 import Projects from "./components/Projects/Projects";
 import Hero from "./components/Hero/Hero";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/",
+    path: "",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <Navigate to="/home" />,
       },
       {

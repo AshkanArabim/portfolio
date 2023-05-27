@@ -1,3 +1,6 @@
+// google drive direct link: (to use in database file)
+// https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website
+
 import "./Project.css";
 
 export default function Project(props) {
@@ -14,8 +17,6 @@ export default function Project(props) {
 				{props.desc} <br />
 				Click to read more...
 			</p>
-			{/* <p>{props.date}</p> */}
-			{/* <p>{props.link}</p> */}
 		</div>
 	);
 }
