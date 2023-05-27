@@ -1,0 +1,44 @@
+{
+	"projects": [
+		{
+			"title": "This site",
+			"date": "2023-05",
+			"link": "https://github.com/AshkanArabim/portfolio",
+			"desc": "[IN PROGRESS] This is the site you are currently using. I developed it using the React.JS (JavaScript). For the styling, I wrote (almost) everything from scratch in pure CSS. I don't want any more bloat!!",
+			"img": "https://drive.google.com/uc?export=view&id=1xc4V5xz47fyZRD68qKbql2ys_plSAz1X",
+			"tags": ["In Progress", "web-dev", "React.JS", "JavaScript"]
+		}, 
+		{
+			"title": "Student Performance Prediction",
+			"date": "2022-11",
+			"link": "https://github.com/AshkanArabim/student-performance",
+			"desc": "Part of AI4ALL. My very first ML project. We trained a random forest model to predict sudents' performance based on several background factors.",
+			"img": "https://drive.google.com/uc?export=view&id=19vsfXDRshV3TuVstOmOMd2dRWlHr3CzU",
+			"tags": ["data-science", "random-forest", "Python"]
+		},
+		{
+			"title": "Music genre classification",
+			"date": "2023-04",
+			"link": "https://github.com/AshkanArabim/music-classification-v2",
+			"desc": "Part of AI4ALL. A project to classify music tracks into 19 different genres. Our team used the Fast Fourier Transform to confert each track into a 2d matrix, and then ran image classification on it.",
+			"img": "https://drive.google.com/uc?export=view&id=1CfRVIJv6emeGJWrdrnSt90QwDZXSn7l8",
+			"tags": ["data-science", "convolutional-neural-network", "Python"]
+		},
+		{
+			"title": "Blabber",
+			"date": "2022-11",
+			"link": "https://github.com/AshkanArabim/blabber",
+			"desc": "CS1 Lab Assignment. A CLI app that behaves like Twitter. Users can create and account, 'Blab', follow, unfollow, see a timeline, and delete their account.",
+			"img": "https://drive.google.com/uc?export=view&id=15HgUGQaL0Bptzd2R-XeZGRH7VT1Ro04o",
+			"tags": ["Java"]
+		},
+		{
+			"title": "Persian Word Extractor",
+			"date": "2022-03",
+			"link": "https://github.com/AshkanArabim/persian-word-extractor",
+			"desc": "Granted, not the most efficient piece of Python code. I used it to add the 'Persian 1k' & 'Persian 5k' tests to Monkeytype.com (aka the best typing-test website ever made)",
+			"img": "https://drive.google.com/uc?export=view&id=18E7DbVyLGLI6oMiY33UNWoYZ--KKj4Ot",
+			"tags": ["open-source", "Python"]
+		}
+	]
+}
