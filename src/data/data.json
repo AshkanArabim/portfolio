@@ -1,6 +1,13 @@
 {
 	"projects": [
 		{
+			"title": "Advent of Code 2022",
+			"date": "2023-08",
+			"link": "https://github.com/AshkanArabim/advent-of-code-2022",
+			"img": "https://drive.google.com/uc?id=15_ttL1upDbm4n73X7fwf_33d7rhHUYK5&",
+			"tags": ["C++"]
+		},
+		{
 			"title": "This site",
 			"date": "2023-05",
 			"link": "https://github.com/AshkanArabim/portfolio",
