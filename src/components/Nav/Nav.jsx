@@ -6,6 +6,7 @@ export default function Nav() {
     <header>
       <Link to="/home">Home</Link>
       <Link to="/Projects">Projects</Link>
+      <a href="https://ashkanblog.netlify.app">Blog</a>
     </header>
   )
 }
