@@ -1,3 +1,6 @@
+**NOTE:** This project was abandoned because I never kept it up to date. It just became useless.
+
+---
 # Portfolio
 This is my very own portfolio website. It will showcase all my projects throughout the years, as well as other info, in an "aesthetic" way. You can check it out here: https://ashkan.zone.
 
